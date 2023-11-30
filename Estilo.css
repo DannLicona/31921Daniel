@@ -1,0 +1,129 @@
+body {
+    background: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ddd;
+    margin-top: 30px;
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+span.error {
+    color: rgb(255, 85, 85);
+}
+span.exito {
+    color: rgb(50, 166, 50);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    font-weight: bold;
+    background: #adffde;
+    width: 150px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    transition: all 300ms;
+}
+
+ul a:hover, p > a:hover {
+    background: #3e6656;
+    color: #ddd;
+}
+
+table {
+    margin: 0 auto;
+    border: #e1fbff;
+    border-collapse: collapse;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+th, td {
+    padding: 5px 10px;
+    color: #c1e5ea;
+}
+
+p > a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    background: #adffde;
+    width: 200px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 300ms;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    text-align: left;
+    color: #ddd;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='password'] {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ddd;
+    color: #ddd;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+form input[type='text']:focus,
+form input[type='email']:focus,
+form input[type='password']:focus {
+    border-bottom: 2px solid #a3f3ff;
+}
+
+form input[type='submit'] {
+    outline: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 90, 174);
+    background: #243537;
+    color: #ddd;
+    transition: all 300ms;
+}
+
+form input[type='submit']:hover {
+    background: #afdde3;
+    color: #333;
+}
